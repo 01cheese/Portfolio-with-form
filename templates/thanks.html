@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You!</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <style>
+        body {
+
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+    <script>
+        // Скрипт для перенаправления через 5 секунд
+        setTimeout(function() {
+            window.location.href = '/';  // Перенаправление на главную страницу
+        }, 5000);
+    </script>
+</head>
+<body>
+    <h1>Thank you for your message, {{ first_name }} {{ last_name }}!</h1>
+    <p>You will be redirected back shortly.</p>
+</body>
+</html>
