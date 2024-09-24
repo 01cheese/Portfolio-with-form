@@ -1,5 +1,9 @@
 # Singular Website - Contact Form with Flask and SQLite
 
+![image](https://github.com/user-attachments/assets/52f8e3d2-2157-4d45-bad3-b708855230ba)
+
+![image](https://github.com/user-attachments/assets/3578abb5-ff46-4793-8daa-2cf25168fee8)
+
 ## Project Overview
 This project is a simple, yet functional website template designed with HTML5, CSS, and Bootstrap, integrated with a backend powered by Flask and SQLite. The primary feature of the site is a contact form, which allows users to submit their name, email, and message. Upon submission, the data is stored in an SQLite database, and an email is sent to the administrator. After the form submission, the user is redirected to a thank-you page, which automatically returns to the home page after a few seconds.
 
